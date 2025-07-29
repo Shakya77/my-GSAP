@@ -14,8 +14,8 @@ main.addEventListener('mousemove', function (e) {
 imageDiv.addEventListener('mouseenter', function (e) {
     cursor.innerHTML = 'Click Me';
     gsap.to(cursor, {
-        scale: 4,
-        backgroundColor: '#ffffff37',
+        scale: 5,
+        backgroundColor: '#ffffff57',
     })
 });
 
