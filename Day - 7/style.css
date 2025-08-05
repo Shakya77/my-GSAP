@@ -25,17 +25,17 @@ body {
 #move {
     background-color: #D8FF04;
     display: flex;
-    padding: 3vw 0;
     overflow: hidden;
     padding: 5vw 0;
+    white-space: nowrap;
 }
 
 .marque {
-    flex-shrink: 0;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 3vw;
     padding: 1vw 1.5vw;
+    white-space: nowrap;
 }
 
 .marque h1 {

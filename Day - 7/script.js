@@ -3,7 +3,7 @@ function marqueAnimation() {
         if (e.deltaY > 0) {
             gsap.to(".marque", {
                 transform: "translateX(-200%)",
-                duration: 3,
+                duration: 10,
                 repeat: -1,
                 ease: "none"
             })
@@ -15,7 +15,7 @@ function marqueAnimation() {
         else {
             gsap.to(".marque", {
                 transform: "translateX(0%)",
-                duration: 3,
+                duration: 10,
                 repeat: -1,
                 ease: "none"
             })
